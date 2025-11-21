@@ -24,8 +24,8 @@ VALUES
 ('11111111111', 'Ágata', 'Giovanna', 'Albuquerque', '81991234567', 'agata.giovanna@example.com'),
 ('22222222222', 'Bruno', 'Ramos', 'Silva', '81987654321', 'bruno.silva@example.com'),
 ('33333333333', 'Diogo', 'Silva', 'Rodrigues', '81995556677', 'diogo.rodrigues@example.com'),
-('44444444444', 'Flávia', 'Vitória', 'Santos', '81993332211', 'flavia.vitoria@example.com');
-('66666666666', 'Gryghor', 'Camonni', 'Cesar', '81993332211', 'gryghor.camonni@example.com');
+('44444444444', 'Flávia', 'Vitória', 'Santos', '81993332211', 'flavia.vitoria@example.com'),
+('66666666666', 'Gryghor', 'Camonni', 'Cesar', '81993332211', 'gryghor.camonni@example.com'),
 ('77777777777', 'Lucas', 'Silva', 'Cabral', '81993332211', 'lucas.cabral@example.com');
 
 -----------------------------------------------------------
@@ -60,7 +60,6 @@ VALUES
 -----------------------------------------------------------
 INSERT INTO interno (cpf_interno, tipo_servico, descricao_servico)
 VALUES
-('44444444444', 'Manutenção', 'Troca de lâmpadas e pequenos reparos'),
 ('44444444444', 'Pintura', 'Pintura das áreas internas');
 
 
