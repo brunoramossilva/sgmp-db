@@ -51,7 +51,6 @@ VALUES
 -----------------------------------------------------------
 INSERT INTO externo (cpf_externo, cnpj_empresa, tipo_servico, descricao_servico)
 VALUES
-('33333333333', '12345678000190', 'Limpeza', 'Limpeza mensal dos corredores'),
 ('33333333333', '98765432000155', 'Jardinagem', 'Manutenção semanal do jardim');
 
 
