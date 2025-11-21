@@ -1,0 +1,26 @@
+{
+  "name": "sgmp-db",
+  "version": "1.0.0",
+  "description": "> **Sistema moderno e intuitivo para gestão de manutenção predial em condomínios e edifícios**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoramossilva/sgmp-db.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/brunoramossilva/sgmp-db/issues"
+  },
+  "homepage": "https://github.com/brunoramossilva/sgmp-db#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  }
+}
