@@ -21,11 +21,12 @@ VALUES
 -----------------------------------------------------------
 INSERT INTO usuario (cpf, prim_nome, segun_nome, terce_nome, telefone, email)
 VALUES
-('11111111111', 'Bruno', 'Henrique', 'Silva', '81987654321', 'bruno.silva@example.com'),
-('22222222222', 'Camila', 'Rocha', 'Almeida', '81991234567', 'camila.almeida@example.com'),
-('33333333333', 'Gabriel', 'Santos', 'Oliveira', '81995556677', 'gabriel.oliveira@example.com'),
-('44444444444', 'Larissa', 'Melo', 'Costa', '81993332211', 'larissa.costa@example.com');
-
+('11111111111', 'Ágata', 'Giovanna', 'Albuquerque', '81991234567', 'agata.giovanna@example.com'),
+('22222222222', 'Bruno', 'Ramos', 'Silva', '81987654321', 'bruno.silva@example.com'),
+('33333333333', 'Diogo', 'Silva', 'Rodrigues', '81995556677', 'diogo.rodrigues@example.com'),
+('44444444444', 'Flávia', 'Vitória', 'Santos', '81993332211', 'flavia.vitoria@example.com');
+('66666666666', 'Gryghor', 'Camonni', 'Cesar', '81993332211', 'gryghor.camonni@example.com');
+('77777777777', 'Lucas', 'Silva', 'Cabral', '81993332211', 'lucas.cabral@example.com');
 
 -----------------------------------------------------------
 --  MORADOR
