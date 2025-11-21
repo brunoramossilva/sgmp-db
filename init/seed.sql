@@ -25,8 +25,8 @@ VALUES
 ('22222222222', 'Bruno', 'Ramos', 'Silva', '81987654321', 'bruno.silva@example.com'),
 ('33333333333', 'Diogo', 'Silva', 'Rodrigues', '81995556677', 'diogo.rodrigues@example.com'),
 ('44444444444', 'Flávia', 'Vitória', 'Santos', '81993332211', 'flavia.vitoria@example.com'),
-('66666666666', 'Gryghor', 'Camonni', 'Cesar', '81993332211', 'gryghor.camonni@example.com'),
-('77777777777', 'Lucas', 'Silva', 'Cabral', '81993332211', 'lucas.cabral@example.com');
+('55555555555', 'Gryghor', 'Camonni', 'Cesar', '81993332211', 'gryghor.camonni@example.com'),
+('66666666666', 'Lucas', 'Silva', 'Cabral', '81993332211', 'lucas.cabral@example.com');
 
 -----------------------------------------------------------
 --  MORADOR
