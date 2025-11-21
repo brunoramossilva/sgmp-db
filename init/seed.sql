@@ -38,7 +38,7 @@ VALUES
 
 
 -----------------------------------------------------------
---  FUNCIONARIO (2 registros)
+--  FUNCIONARIO
 -----------------------------------------------------------
 INSERT INTO funcionario (cpf_funcionario, matricula, expediente, salario)
 VALUES
@@ -47,7 +47,7 @@ VALUES
 
 
 -----------------------------------------------------------
---  EXTERNO (2 registros)
+--  EXTERNO
 -----------------------------------------------------------
 INSERT INTO externo (cpf_externo, cnpj_empresa, tipo_servico, descricao_servico)
 VALUES
@@ -56,7 +56,7 @@ VALUES
 
 
 -----------------------------------------------------------
---  INTERNO (2 registros)
+--  INTERNO
 -----------------------------------------------------------
 INSERT INTO interno (cpf_interno, tipo_servico, descricao_servico)
 VALUES
@@ -64,7 +64,7 @@ VALUES
 
 
 -----------------------------------------------------------
---  SINDICO (2 registros)
+--  SINDICO
 -----------------------------------------------------------
 INSERT INTO sindico (cpf_sindico, inicio_mandato, fim_mandato)
 VALUES
@@ -73,7 +73,7 @@ VALUES
 
 
 -----------------------------------------------------------
---  FINANCAS (2 registros)
+--  FINANCAS
 -----------------------------------------------------------
 INSERT INTO financas (cpf_sindico, item_limpeza, item_manutencao, receita, despesas, impostos)
 VALUES
@@ -82,7 +82,7 @@ VALUES
 
 
 -----------------------------------------------------------
---  ORDEM_SERVICO (2 registros)
+--  ORDEM_SERVICO
 -----------------------------------------------------------
 INSERT INTO ordem_servico (data_abertura, data_conclusao, status, descricao_prob, cpf_morador, cpf_sindico)
 VALUES
@@ -91,7 +91,7 @@ VALUES
 
 
 -----------------------------------------------------------
---  RESERVA (2 registros)
+--  RESERVA
 -----------------------------------------------------------
 INSERT INTO reserva (id_area, cpf_morador, data_reserva, hora_reserva, status)
 VALUES
@@ -100,7 +100,7 @@ VALUES
 
 
 -----------------------------------------------------------
---  EXECUTA_OS (2 registros)
+--  EXECUTA_OS
 -----------------------------------------------------------
 INSERT INTO executa_os (id_os, cpf_funcionario, tipo_servico)
 VALUES
