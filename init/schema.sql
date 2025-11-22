@@ -48,7 +48,7 @@ CREATE TABLE externo (
    cpf_externo CHAR(11) NOT NULL,
    cnpj_empresa CHAR(14) NOT NULL,
    tipo_servico VARCHAR (15) NOT NULL,
-   descricao_servico VARCHAR (50) NOT NULL,
+   descricao_servico VARCHAR (200) NOT NULL,
    PRIMARY KEY (cpf_externo, cnpj_empresa),
    FOREIGN KEY (cpf_externo) REFERENCES funcionario (cpf_funcionario) ON DELETE CASCADE
 );
@@ -57,7 +57,7 @@ CREATE TABLE externo (
 CREATE TABLE interno (
    cpf_interno CHAR(11) PRIMARY KEY,
    tipo_servico VARCHAR (15) NOT NULL,
-   descricao_servico VARCHAR (50) NOT NULL,
+   descricao_servico VARCHAR (200) NOT NULL,
    FOREIGN KEY (cpf_interno) REFERENCES funcionario (cpf_funcionario) ON DELETE CASCADE
 );
 
@@ -86,8 +86,8 @@ CREATE TABLE ordem_servico (
   id_os SERIAL PRIMARY KEY,
   data_abertura DATE NOT NULL,
   data_conclusao DATE,
-  status VARCHAR(20) NOT NULL,
-  descricao_prob VARCHAR (50),
+  situacao VARCHAR(20) NOT NULL,
+  descricao_prob VARCHAR (200),
   cpf_morador CHAR(11),
   cpf_sindico CHAR(11),
   FOREIGN KEY (cpf_morador) REFERENCES morador (cpf_morador) ON DELETE SET NULL,
@@ -101,7 +101,7 @@ CREATE TABLE reserva (
     cpf_morador CHAR(11) NOT NULL REFERENCES morador(cpf_morador),
     data_reserva DATE NOT NULL,
     hora_reserva TIME NOT NULL,
-    status VARCHAR(20) NOT NULL DEFAULT 'PENDENTE',
+    situacao VARCHAR(20) NOT NULL DEFAULT 'PENDENTE',
     UNIQUE (id_area, data_reserva, hora_reserva)
 );
 
