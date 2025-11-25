@@ -92,6 +92,10 @@ VALUES
 -----------------------------------------------------------
 INSERT INTO funcionario (cpf_funcionario, matricula, expediente, salario)
 VALUES
+-- Síndicos:
+('11111111111', 'FUNC-01', '08:00 - 15:00', 4000.00),
+('22222222222', 'FUNC-02', '08:00 - 15:00', 4000.00),
+('33333333333', 'FUNC-03', '08:00 - 15:00', 4000.00),
 -- Turno manha:
 ('57294836011', 'FUNC-011', '06:00 - 15:00', 2500.00),
 ('83102759044', 'FUNC-012', '07:00 - 16:00', 2550.00),
@@ -113,7 +117,6 @@ INSERT INTO externo (cpf_externo, cnpj_empresa, tipo_servico, descricao_servico)
 VALUES
 ('57294836011', '11122233000155', 'Dedetização', 'Serviço de controle de pragas realizado mensalmente'),
 ('83102759044', '22233344000166', 'Elétrica', 'Reparo e manutenção elétrica predial');
-
 
 -----------------------------------------------------------
 --  INTERNO
@@ -211,31 +214,22 @@ INSERT INTO executa_os (id_os, cpf_funcionario, tipo_servico)
 VALUES
 -- OS 1: Vazamento no banheiro (hidráulica)
 (1, '31786540251', 'Hidráulica'),
-
 -- OS 2: Lâmpada queimada (serviço elétrico → funcionário externo)
 (2, '83102759044', 'Elétrica'),
-
 -- OS 3: Problema na porta (manutenção)
 (3, '46018297520', 'Manutenção'),
-
 -- OS 4: Cheiro de gás (porteiro dia aciona emergência)
 (4, '54879021388', 'Portaria'),
-
 -- OS 5: Vidro quebrado (manutenção geral)
 (5, '46018297520', 'Manutenção'),
-
 -- OS 6: Interfone mudo (TI)
 (6, '91564023877', 'TI'),
-
 -- OS 7: Cano entupido (hidráulica)
 (7, '31786540251', 'Hidráulica'),
-
 -- OS 8: Ralo entupido (limpeza)
 (8, '38492017566', 'Limpeza'),
-
 -- OS 9: Pintura descascando (manutenção)
 (9, '46018297520', 'Pintura'),
-
 -- OS 10: Barulho no encanamento (hidráulica)
 (10, '31786540251', 'Hidráulica');
 
